@@ -17,4 +17,8 @@ while True:
         print('You have successfully inputted an integer!')
         break
     except:
-        print("There was an error. Please try again\n")
+        try:
+            num=float(num)
+            print('That value is not an integer. Please try again\n')
+        except:
+            print("Not a valid input. Please try again\n")

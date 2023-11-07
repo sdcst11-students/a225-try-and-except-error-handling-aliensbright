@@ -31,4 +31,4 @@ while True:
         except:
             print('There is no square root.\nTry again!')
     except:
-        print('That is not a valid number.\nTry again!')
+        print('That is not a valid input.\nTry again!')
